@@ -74,7 +74,7 @@
                 <div class="menu-btn-user-burger"></div>
             </div>
 
-            <div class="menu-user">
+            <div class="menu-user" :class="{ showUser:menuOpenBoxUser }">
                 <ul>
                     <li class="user-link"><a href="#"><i class="fas fa-angle-down"></i>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ناحیه کاربری</a>
                         <div class="dropdown-user" >
@@ -118,6 +118,7 @@
                 menuOpen: false,
                 mobileMenu: false,
                 menuOpenUser: false,
+                menuOpenBoxUser:false
             }
         },
 
@@ -141,6 +142,12 @@
                     this.menuOpenUser = true
                 }else{
                     this.menuOpenUser = false
+                }
+
+                if(!this.menuOpenBoxUser){
+                    this.menuOpenBoxUser = true
+                }else{
+                    this.menuOpenBoxUser = false
                 }
             }
         },

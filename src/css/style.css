@@ -1009,6 +1009,17 @@ li{
     -o-transform: translateX(-607px);
 }
 
+.showUser{
+    transform: translateX(0);
+    transition: .5s;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+
+
+
 .menu-user ul li{
     width: 100%;
     background: #ffc72c;

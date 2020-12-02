@@ -5,13 +5,61 @@
                 <h2>LOGO</h2>
             </div>
             <nav class="d-flex nav">
-                <li>صفحه اصلی</li>
-                <li>فرانت اند <i class="fas fa-angle-down"></i></li>
-                <li>بک اند <i class="fas fa-angle-down"></i></li>
-                <li>زبان ها <i class="fas fa-angle-down"></i></li>
-                <li>رابط کاربری <i class="fas fa-angle-down"></i></li>
-                <li>گرافیک <i class="fas fa-angle-down"></i></li>
-                <li>CMS ها <i class="fas fa-angle-down"></i></li>
+                <li class="nav-link">صفحه اصلی</li>
+                <li class="nav-link">فرانت اند <i class="fas fa-angle-down"></i>
+                    <div class="dropdown">
+                        <ul>
+                            <li class="dropdown-link"><a href="#">آیتم 1</a></li>
+                            <li class="dropdown-link"><a href="#">آیتم 2</a></li>
+                            <li class="dropdown-link"><a href="#">آیتم 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-link">بک اند <i class="fas fa-angle-down"></i>
+                    <div class="dropdown">
+                            <ul>
+                                <li class="dropdown-link"><a href="#">آیتم 1</a></li>
+                                <li class="dropdown-link"><a href="#">آیتم 2</a></li>
+                                <li class="dropdown-link"><a href="#">آیتم 3</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                <li class="nav-link">زبان ها <i class="fas fa-angle-down"></i>
+                    <div class="dropdown">
+                        <ul>
+                            <li class="dropdown-link"><a href="#">آیتم 1</a></li>
+                            <li class="dropdown-link"><a href="#">آیتم 2</a></li>
+                            <li class="dropdown-link"><a href="#">آیتم 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-link">رابط کاربری <i class="fas fa-angle-down"></i>
+                    <div class="dropdown">
+                        <ul>
+                            <li class="dropdown-link"><a href="#">آیتم 1</a></li>
+                            <li class="dropdown-link"><a href="#">آیتم 2</a></li>
+                            <li class="dropdown-link"><a href="#">آیتم 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-link">گرافیک <i class="fas fa-angle-down"></i>
+                    <div class="dropdown">
+                        <ul>
+                            <li class="dropdown-link"><a href="#">آیتم 1</a></li>
+                            <li class="dropdown-link"><a href="#">آیتم 2</a></li>
+                            <li class="dropdown-link"><a href="#">آیتم 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-link">CMS ها <i class="fas fa-angle-down"></i>
+                    <div class="dropdown">
+                        <ul>
+                            <li class="dropdown-link"><a href="#">آیتم 1</a></li>
+                            <li class="dropdown-link"><a href="#">آیتم 2</a></li>
+                            <li class="dropdown-link"><a href="#">آیتم 3</a></li>
+                        </ul>
+                    </div>
+                </li>
             </nav>
             <div class="logr d-flex align-items-lg-center">
                 <btn-prime-flat class="fas fa-search search-btn ml-2"></btn-prime-flat>

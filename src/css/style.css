@@ -591,3 +591,108 @@ a {
     padding: 8px;
     font-size: 17pt;
 }
+
+/* Start header dropdown */
+
+li{
+    list-style: none;
+}
+
+.nav-link{
+    position: relative;
+}
+
+.dropdown{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    transition: .5s;
+    z-index: 9999;
+    transition:all .5s ;
+    -webkit-transition:all .5s ;
+    -moz-transition:all .5s ;
+    -ms-transition:all .5s ;
+    -o-transition:all .5s ;
+    opacity: 0;
+    pointer-events: none;
+    padding-top: 5px;
+}
+
+
+
+.dropdown ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    transition: .5s;
+    padding-left: 20px;
+    background:#fff;
+    height: auto;
+    width: 96px;
+    padding: 0px 0px 18px 0;
+    transition: .5s;
+    z-index: 99999999999999;
+    border-bottom: 2px solid #7800da;
+    -webkit-box-shadow: 0px 1px 2px 1px #262626;
+    box-shadow: 0px 1px 2px 1px #262626;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    transition: .5s;
+    padding-left: 20px;
+}
+
+
+
+.dropdown-link a{
+    display: flex;
+    color: #fff;
+}
+
+.dropdown ul li:first-child{
+    margin: 0 15px 0 0;
+}
+
+.dropdown ul li{
+    padding-top: 10px;
+    transition: .5s;
+    line-height: 20px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    text-align: right;
+    margin: 0 15px 0 0;
+}
+
+.dropdown ul li a{
+    color: #262626 !important;
+}
+
+.nav-link:hover .dropdown{
+    transform: translate(0,0);
+    pointer-events: auto;
+    display: block;
+    padding-top: 0;
+    opacity: 1;
+    padding-top: -5px;
+}
+
+.nav-link li i{
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.nav-link:hover i{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+/* Start header dropdown */

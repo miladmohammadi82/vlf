@@ -30,6 +30,11 @@
     url("../assets/fonts/IRANSansWeb_Medium.ttf") format("ttf"),
     url("../assets/fonts/IRANSansWeb_Medium.woff2") format("woff2");
 }
+
+a{
+    color: #262226;
+}
+
 @font-face {
   font-family: sans-fa;
   src: url("../assets/fonts/IRANSansWeb-fa.eot") format("eot"),
@@ -905,6 +910,8 @@ li{
     -moz-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu-btn-user .menu-btn-user-burger{
@@ -970,10 +977,49 @@ li{
     background: transparent;
 }
 
+.menu-user{
+    display: block;
+    width: 50%;
+    background: #fff;
+    right: 0;
+    position: fixed;
+    height: calc(100% - 3rem);
+    top: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    line-height: 60px;
+    z-index: 200;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: 1s;
+    border-right: 2px solid #FF6D00;
+    top: 70px;
+    color: #262626;
+    right: 50%;
+}
 
+.menu-user ul li{
+    width: 100%;
+    background: rgb(255, 195, 32);
+    text-align: left;
+}
 
-@media(max-width: 600px){
+.menu-user ul li ul li{
+    background: #000;
+}
+
+.menu-user ul li a{
+    padding: 0 0 0 14px;
+}
+
+@media(max-width: 574px){
     .logr button{
         display: none
+    }
+
+    .menu-btn-user{
+        right: 46%;
     }
 }

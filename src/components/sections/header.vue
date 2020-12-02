@@ -74,6 +74,17 @@
                 <div class="menu-btn-user-burger"></div>
             </div>
 
+            <div class="menu-user">
+                <ul>
+                    <li class="user-link"><a href="#"><i class="fas fa-angle-down"></i>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ناحیه کاربری</a>
+                        <ul>
+                            <li><a href="">sacasc</a></li>
+                        </ul>
+                    </li>
+                    <li></li>
+                </ul>
+            </div>
+
         </div>
 
         <div class="row container-fluid header-2">

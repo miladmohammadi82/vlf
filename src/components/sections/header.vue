@@ -1,5 +1,5 @@
 <template>
-    <header class="mt-4">
+    <header class="mt-4 header-section">
         <div class="row ml-auto justify-content-lg-around">
             <div class="ml-3">
                 <h2>LOGO</h2>
@@ -61,7 +61,7 @@
                     </div>
                 </li>
             </nav>
-            <div class="logr d-flex align-items-lg-center">
+            <div class="logr d-flex align-items-lg-center mr-4">
                 <btn-prime-flat class="fas fa-search search-btn ml-2"></btn-prime-flat>
                 <btn-prime-flat style="border-bottom: 2px solid #023e8a;">ثبت نام</btn-prime-flat>
                 <btn-sccss-flat style="border-bottom: 2px solid #0ead69;" class="mr-3">ورود</btn-sccss-flat>

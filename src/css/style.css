@@ -694,5 +694,21 @@ li{
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
 }
-
 /* Start header dropdown */
+
+
+
+
+@media(max-width: 1092px){
+    .nav-link{
+        font-size: 14px;
+    }
+
+    .header-section{
+        margin-right: 30px;
+    }
+}
+
+@media(max-width: 965px){
+    
+}

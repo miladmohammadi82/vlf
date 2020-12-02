@@ -1,10 +1,13 @@
 <template>
     <header class="mt-4 header-section">
-        <div class="row ml-auto justify-content-lg-around">
-            <div class="ml-3">
+        <div class="row ml-auto justify-content-md-between justify-content-sm-between">
+            <div class="menu-btn" :class="{ open:menuOpen }" @click="menuOpenshow">
+                <div class="menu-btn-burger"></div>
+            </div>
+            <div class="mr-5 text-md-center">
                 <h2>LOGO</h2>
             </div>
-            <nav class="d-flex nav">
+            <nav class="d-flex nav main-menu">
                 <li class="nav-link">صفحه اصلی</li>
                 <li class="nav-link">فرانت اند <i class="fas fa-angle-down"></i>
                     <div class="dropdown">
@@ -61,7 +64,7 @@
                     </div>
                 </li>
             </nav>
-            <div class="logr d-flex align-items-lg-center mr-4">
+            <div class="logr d-flex align-items-lg-center ml-4">
                 <btn-prime-flat class="fas fa-search search-btn ml-2"></btn-prime-flat>
                 <btn-prime-flat style="border-bottom: 2px solid #023e8a;">ثبت نام</btn-prime-flat>
                 <btn-sccss-flat style="border-bottom: 2px solid #0ead69;" class="mr-3">ورود</btn-sccss-flat>
@@ -91,11 +94,29 @@
     import btnSccssFlat from "../buttons/success/flat";
     export default {
         name: "Header",
+        data(){
+            return{
+                menuOpen: false,
+            }
+        },
+
+        methods: {
+            menuOpenshow(){
+                if(!this.menuOpen){
+                    this.menuOpen = true
+                }else{
+                    this.menuOpen = false
+                }
+            }
+        },
+
         components: {
             btnPrimeFlat,
             btnPrimeOut,
             btnWarnOut,
             btnSccssFlat,
         },
+
+        
     };
 </script>

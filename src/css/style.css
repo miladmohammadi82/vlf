@@ -696,7 +696,11 @@ li{
 }
 /* Start header dropdown */
 
+/* Start mobile menu */
 
+.nav-link ul{
+    display: flex;
+}
 
 
 @media(max-width: 1092px){
@@ -711,4 +715,98 @@ li{
 
 @media(max-width: 965px){
     
+
+    .main-menu .nav-link{
+        display: none;
+    }
 }
+
+
+/*start menu burger*/
+.menu-btn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    display: none;
+}
+
+.menu-btn .menu-btn-burger{
+    width: 39px;
+    height: 5px;
+    background: #4e4e4e;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.menu-btn-burger::before,
+.menu-btn-burger::after{
+    content: '';
+    position: absolute;
+    width: 39px;
+    height: 5px;
+    background: #4e4e4e;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    
+}
+
+.menu-btn-burger::before{
+    transform: translateY(-11px);
+    -webkit-transform: translateY(-11px);
+    -moz-transform: translateY(-11px);
+    -ms-transform: translateY(-11px);
+    -o-transform: translateY(-11px);
+}
+
+.menu-btn-burger::after{
+    transform: translateY(11px);
+    -webkit-transform: translateY(11px);
+    -moz-transform: translateY(11px);
+    -ms-transform: translateY(11px);
+    -o-transform: translateY(11px);
+}
+
+@media(max-width: 965px){
+    .menu-btn{
+        display: block;
+        padding-top: 13px;
+    }
+}
+
+.menu-btn.open .menu-btn-burger{
+    background: transparent;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+}
+
+.menu-btn.open .menu-btn-burger::before{
+    transform: translateY(0) rotate(-45deg);
+    background: #b40e12;
+}
+
+.menu-btn.open .menu-btn-burger::after{
+    transform: translateY(0) rotate(45deg);
+    background: #b40e12;
+    -webkit-transform: translateY(0) rotate(45deg);
+    -moz-transform: translateY(0) rotate(45deg);
+    -ms-transform: translateY(0) rotate(45deg);
+    -o-transform: translateY(0) rotate(45deg);
+}
+
+
+/* Start mobile menu */

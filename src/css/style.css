@@ -842,7 +842,11 @@ li{
         color: #262626;
         text-align: right;
         transform: translateX(607px);
-    }
+        -webkit-transform: translateX(607px);
+        -moz-transform: translateX(607px);
+        -ms-transform: translateX(607px);
+        -o-transform: translateX(607px);
+}
 
     .main-menu .nav-link{
         display: block;
@@ -998,18 +1002,30 @@ li{
     top: 70px;
     color: #262626;
     right: 50%;
+    transform: translateX(-607px);
+    -webkit-transform: translateX(-607px);
+    -moz-transform: translateX(-607px);
+    -ms-transform: translateX(-607px);
+    -o-transform: translateX(-607px);
 }
 
 .menu-user ul li{
     width: 100%;
-    background: rgb(255, 195, 32);
+    background: #ffc72c;
     text-align: left;
 }
 
-.menu-user ul li ul li{
-    background: #000;
+.dropdown-user ul li{
+    background: ​#000 !important;
+    text-align: center;
+    display: none;
 }
 
+
+
+.menu-user ul li:hover .dropdown-user ul li{
+    display: block;
+}
 .menu-user ul li a{
     padding: 0 0 0 14px;
 }

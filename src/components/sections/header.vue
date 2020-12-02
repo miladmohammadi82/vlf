@@ -77,9 +77,12 @@
             <div class="menu-user">
                 <ul>
                     <li class="user-link"><a href="#"><i class="fas fa-angle-down"></i>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ناحیه کاربری</a>
-                        <ul>
-                            <li><a href="">sacasc</a></li>
-                        </ul>
+                        <div class="dropdown-user" >
+                            <ul class="" >
+                                <li style="background: #ffce46;"><a href="">ورود&emsp;<i class="fas fa-sign-in-alt"></i></a></li>
+                                <li style="background: #ffce46;"><a href="">ثبت نام</a></li>
+                            </ul>
+                        </div>
                     </li>
                     <li></li>
                 </ul>

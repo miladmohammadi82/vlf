@@ -135,6 +135,11 @@
                 }else{
                     this.mobileMenu = false
                 }
+
+                if(this.mobileMenu && this.menuOpenUser && this.menuOpenBoxUser){
+                    this.menuOpenUser = false
+                    this.menuOpenBoxUser = false
+                }
             },
 
             menuOpenUsershow(){
@@ -148,6 +153,11 @@
                     this.menuOpenBoxUser = true
                 }else{
                     this.menuOpenBoxUser = false
+                }
+
+                if(this.menuOpenBoxUser && this.menuOpen && this.mobileMenu){
+                    this.menuOpen = false
+                    this.mobileMenu = false
                 }
             }
         },

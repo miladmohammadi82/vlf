@@ -69,6 +69,11 @@
                 <btn-prime-flat style="border-bottom: 2px solid #023e8a;">ثبت نام</btn-prime-flat>
                 <btn-sccss-flat style="border-bottom: 2px solid #0ead69;" class="mr-3">ورود</btn-sccss-flat>
             </div>
+
+            <div class="menu-btn-user" :class="{ openUser:menuOpenUser }" @click="menuOpenUsershow">
+                <div class="menu-btn-user-burger"></div>
+            </div>
+
         </div>
 
         <div class="row container-fluid header-2">
@@ -98,6 +103,7 @@
             return{
                 menuOpen: false,
                 mobileMenu: false,
+                menuOpenUser: false,
             }
         },
 
@@ -113,6 +119,14 @@
                     this.mobileMenu = true
                 }else{
                     this.mobileMenu = false
+                }
+            },
+
+            menuOpenUsershow(){
+                if(!this.menuOpenUser){
+                    this.menuOpenUser = true
+                }else{
+                    this.menuOpenUser = false
                 }
             }
         },

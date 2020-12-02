@@ -4,10 +4,10 @@
             <div class="menu-btn" :class="{ open:menuOpen }" @click="menuOpenshow">
                 <div class="menu-btn-burger"></div>
             </div>
-            <div class="mr-5 text-md-center">
+            <div class="mr-5">
                 <h2>LOGO</h2>
             </div>
-            <nav class="d-flex nav main-menu">
+            <nav class="d-flex nav main-menu" :class="{ show:mobileMenu }">
                 <li class="nav-link">صفحه اصلی</li>
                 <li class="nav-link">فرانت اند <i class="fas fa-angle-down"></i>
                     <div class="dropdown">
@@ -97,6 +97,7 @@
         data(){
             return{
                 menuOpen: false,
+                mobileMenu: false,
             }
         },
 
@@ -106,6 +107,12 @@
                     this.menuOpen = true
                 }else{
                     this.menuOpen = false
+                }
+
+                if(!this.mobileMenu){
+                    this.mobileMenu = true
+                }else{
+                    this.mobileMenu = false
                 }
             }
         },

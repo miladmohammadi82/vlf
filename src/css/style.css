@@ -884,8 +884,14 @@ li{
 
     .menu-main ul li{
         border-bottom: 1px solid #d6d6d6;
+        width: 100%;
     }
-
+    .menu-main ul li .dropdown ul li{
+        width: 100%;
+        padding: 12px 14px 0 0;
+        font-size: 15px;
+        border: none;
+    }
 
     .mobile-menu .searchBox{
         margin: -62px auto;
@@ -943,7 +949,7 @@ li{
         background: #FFAA00;
         box-shadow: 0 0 0 0;
         border: none;
-        width: 157%;
+        width: 167%;
         margin: 0;
         padding: 0px 0px 15px 0px;
     }
@@ -1159,6 +1165,9 @@ li{
 .menu-user ul li:hover .dropdown-user ul li{
     display: block;
 }
+
+
+
 .menu-user ul li a{
     padding: 0 0 0 14px;
 }

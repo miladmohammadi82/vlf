@@ -176,8 +176,9 @@
                     <div class="clise-nav2" @click="menuOpenUsershow">
                         <i class="far fa-times fa-2x"></i>
                     </div>
-                    
-                    <img src="" alt="">
+
+                    <img src="../../assets/image-profile.jpg" class="text-center best-teacher-avatar"  alt="">
+                    <h4>میلاد محمدی</h4>
                 </div>
                 
                 

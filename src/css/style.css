@@ -1134,6 +1134,24 @@ li{
     background: #ddb500;
 }
 
+.head-menu-user img
+{
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    border: oldlace solid 2px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
 .overlay{
     height: 100%;
     width: 100%;

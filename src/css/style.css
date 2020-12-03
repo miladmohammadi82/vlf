@@ -809,9 +809,7 @@ li{
 
 @media(max-width: 965px){
     .menu-btn{
-        display: block;
-        padding-top: 13px;
-        
+        display: block;        
     }
 
     .dropdown{
@@ -917,7 +915,7 @@ li{
     display: flex;
     justify-content: space-between;
     display: none;
-    margin: 12px -12px 0 0
+    margin: 0 -12px 0 0
 }
 
 @media(max-width: 965px){

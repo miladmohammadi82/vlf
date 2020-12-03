@@ -1009,7 +1009,8 @@ li{
     overflow-y: auto;
     transition: 1s;
     border-right: 2px solid #FF6D00;
-    top: 70px;
+    top: 0px;
+    height: 100%;
     transform: translateX(-200%);
     -webkit-transform: translateX(-200%);
     -moz-transform: translateX(-200%);

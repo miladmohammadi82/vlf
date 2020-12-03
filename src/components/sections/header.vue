@@ -183,15 +183,11 @@
                 
                 
                 <ul>
-                    
-                    <li class="user-link"><a href="#"><i class="fas fa-angle-down"></i>ناحیه کاربری</a>
-                        <div class="dropdown-user" >
-                            <ul class="" >
-                                <li style="background: #ffce46;"><a href="">ورود<i class="fas fa-sign-in-alt"></i></a></li>
-                                <li style="background: #ffce46;"><a href="">ثبت نام</a></li>
-                            </ul>
-                        </div>
-                    </li>
+                    <li class="user-link"><a href="#"><i class="fas fa-user"></i>&nbsp;&nbsp;حساب کاربری</a></li>
+                    <li class="user-link"><a href="#"><i class="fas fa-user"></i>&nbsp;&nbsp;حساب کاربری</a></li>
+                    <li class="user-link"><a href="#"><i class="fas fa-user"></i>&nbsp;&nbsp;حساب کاربری</a></li>
+                    <li class="user-link"><a href="#"><i class="fas fa-user"></i>&nbsp;&nbsp;حساب کاربری</a></li>
+                    <li class="user-link"><a href="#"><i class="fas fa-user"></i>&nbsp;&nbsp;حساب کاربری</a></li>
                 </ul>
             </div>
 

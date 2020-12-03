@@ -943,6 +943,9 @@ li{
         background: #FFAA00;
         box-shadow: 0 0 0 0;
         border: none;
+        width: 157%;
+        margin: 0;
+        padding: 0px 0px 15px 0px;
     }
 
     

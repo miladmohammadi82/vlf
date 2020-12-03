@@ -825,8 +825,8 @@ li{
     }
 
     .main-menu{
-        display: block;
-        width: 50%;
+        display: none;
+        /* width: 50%;
         background: #fff;
         right: -10px;
         position: fixed;
@@ -849,8 +849,10 @@ li{
         -o-transform: translateX(607px);
         top: 0;
         height: 100%;
-        z-index: 9999;
+        z-index: 9999; */
     }
+
+
 
     .head-menu-mobile{
         width: 100%;
@@ -865,13 +867,7 @@ li{
         top: 10px;
     }
 
-    .main-menu .nav-link{
-        display: block;
-        margin-right: 13px;
-        width: 100%;
-        border-bottom: 1px solid #d2d2d2;
-        padding: 0 0 0 80px;
-    }
+    
 
     .nav-link:hover .dropdown {
         transform: translate(0,0);

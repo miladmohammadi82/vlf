@@ -20,11 +20,7 @@
             </div>
             
             <nav class="d-flex nav main-menu" :class="{ show:mobileMenu }">
-                <!-- <div class="head-menu-mobile">
-                    <div class="clise-nav" @click="menuOpenshow">
-                        <i class="far fa-times fa-2x"></i>
-                    </div>
-                </div> -->
+                
                 
             
                 <li class="nav-link">صفحه اصلی</li>
@@ -88,7 +84,17 @@
 
             <div class="mobile-menu">
                 <div class="head-menu-mobile">
-                    
+                    <div class="head-menu-mobile">
+                        <div class="clise-nav" @click="menuOpenshow">
+                            <i class="far fa-times fa-2x"></i>
+                        </div>
+                    </div>
+                    <form action="" class="searchBox"> 
+                        <div class="input-group input-group-lg">
+                            <input type="text" placeholder="ترجمه ...">
+                            <button><i class="far fa-search" style="font-size: 15px;"></i></button>
+                        </div>
+                    </form>
                 </div>
 
                 <nav class="menu-main">

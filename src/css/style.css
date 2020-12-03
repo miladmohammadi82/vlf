@@ -807,13 +807,25 @@ li{
     -o-transform: translateY(0) rotate(45deg);
 }
 
+.mobile-menu{
+    display: none;
+}
 
+.overlay{
+    display: none;
+}
 
 @media(max-width: 965px){
     .menu-btn{
         display: block;        
     }
+    .mobile-menu{
+        display: block;
+    }
 
+    .overlay{
+        display: block;
+    }
   
     .dropdown{
         opacity: 0;
@@ -1095,7 +1107,7 @@ li{
 
 .menu-user{
     display: block;
-    width: 350px;
+    width: 50%;
     background: #fff;
     right: 0;
     position: fixed;

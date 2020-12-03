@@ -1,9 +1,20 @@
 <template>
     <header class="mt-4 header-section">
         <div class="row ml-auto justify-content-md-between justify-content-sm-between">
-            <div class="menu-btn" :class="{ open:menuOpen }" @click="menuOpenshow">
-                <div class="menu-btn-burger"></div>
-            </div>
+            <ul class="d-flex">
+                <li>
+                    <div class="menu-btn" :class="{ open:menuOpen }" @click="menuOpenshow">
+                        <div class="menu-btn-burger"></div>
+                    </div>
+                </li>
+                <li>      
+                    <div class="menu-btn-user" :class="{ openUser:menuOpenUser }" @click="menuOpenUsershow">
+                        <div class="menu-btn-user-burger"></div>
+                    </div>
+                </li>
+            </ul>
+            
+
             <div class="mr-5">
                 <h2>LOGO</h2>
             </div>

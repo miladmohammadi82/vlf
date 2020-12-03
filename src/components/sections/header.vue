@@ -4,12 +4,12 @@
             <ul class="d-flex">
                 <li>
                     <div class="menu-btn" :class="{ open:menuOpen }" @click="menuOpenshow">
-                        <div class="menu-btn-burger"></div>
+                        <i class="fas fa-bars fa-2x"></i>
                     </div>
                 </li>
                 <li>      
                     <div class="menu-btn-user" :class="{ openUser:menuOpenUser }" @click="menuOpenUsershow">
-                        <div class="menu-btn-user-burger"></div>
+                        <i class="fas fa-user fa-2x"></i>
                     </div>
                 </li>
             </ul>

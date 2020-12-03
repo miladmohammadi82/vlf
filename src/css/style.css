@@ -807,9 +807,17 @@ li{
     -o-transform: translateY(0) rotate(45deg);
 }
 
+.head-menu-mobile{
+    display: none;
+}
+
 @media(max-width: 965px){
     .menu-btn{
         display: block;        
+    }
+
+    .head-menu-mobile{
+        display: block;
     }
 
     .dropdown{
@@ -851,7 +859,7 @@ li{
     }
 
     .clise-nav{
-        padding: 0 0 0 70%;
+        padding: 4px 15px 0 0;
         position: initial;
         color: #b30606;
         top: 10px;

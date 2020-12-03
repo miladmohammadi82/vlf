@@ -101,13 +101,13 @@
                     <ul>
                         <li><a href="#">صفحه اصلی</a></li>
                         <li class="nav-link">فرانت اند <i class="fas fa-angle-down"></i>
-                    <div class="dropdown">
-                        <ul>
-                            <li class="dropdown-link"><a href="#">آیتم 1</a></li>
-                            <li class="dropdown-link"><a href="#">آیتم 2</a></li>
-                            <li class="dropdown-link"><a href="#">آیتم 3</a></li>
-                        </ul>
-                    </div>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown-link"><a href="#">آیتم 1</a></li>
+                                <li class="dropdown-link"><a href="#">آیتم 2</a></li>
+                                <li class="dropdown-link"><a href="#">آیتم 3</a></li>
+                            </ul>
+                        </div>
                         </li>
                         <li class="nav-link">بک اند <i class="fas fa-angle-down"></i>
                             <div class="dropdown">

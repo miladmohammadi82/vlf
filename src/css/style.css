@@ -845,9 +845,10 @@ li{
     }
 
 
+
     .clise-nav{
-        left: 73px;
-        position: relative;
+        padding: 0 0 0 70%;
+        position: initial;
         color: #b30606;
         top: 10px;
     }
@@ -1028,8 +1029,8 @@ li{
 }
 
 .clise-nav2{
-    position: relative;
-    right: 231px;
+    position: initial;
+    padding: 6px 87% 0 0;
     top: 10px;
     color: #b50000;
 }

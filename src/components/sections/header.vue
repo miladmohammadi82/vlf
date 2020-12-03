@@ -19,6 +19,11 @@
                 <h2>LOGO</h2>
             </div>
             <nav class="d-flex nav main-menu" :class="{ show:mobileMenu }">
+
+                <div class="clise-nav" @click="menuOpenshow">
+                    <i class="far fa-times fa-2x"></i>
+                </div>
+
                 <li class="nav-link">صفحه اصلی</li>
                 <li class="nav-link">فرانت اند <i class="fas fa-angle-down"></i>
                     <div class="dropdown">

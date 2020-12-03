@@ -844,6 +844,14 @@ li{
         z-index: 9999;
     }
 
+
+    .clise-nav{
+        left: 73px;
+        position: relative;
+        color: #b30606;
+        top: 10px;
+    }
+
     .main-menu .nav-link{
         display: block;
         margin-right: 13px;

@@ -172,10 +172,14 @@
 
 
             <div class="menu-user" :class="{ showUser:menuOpenBoxUser }">
-                
-                <div class="clise-nav2" @click="menuOpenUsershow">
-                    <i class="far fa-times fa-2x"></i>
+                <div class="head-menu-user">
+                    <div class="clise-nav2" @click="menuOpenUsershow">
+                        <i class="far fa-times fa-2x"></i>
+                    </div>
+                    
+                    <img src="" alt="">
                 </div>
+                
                 
                 <ul>
                     

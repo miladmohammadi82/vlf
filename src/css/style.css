@@ -734,7 +734,6 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-
     cursor: pointer;
     transition: all 0.5s ease-in-out;
     display: none;
@@ -917,7 +916,16 @@ li{
     -o-transition: all 0.5s ease-in-out;
     display: flex;
     justify-content: space-between;
+    display: none;
+    margin: 12px -12px 0 0
 }
+
+@media(max-width: 965px){
+    .menu-btn-user{
+        display: block;
+    }
+}
+
 
 .menu-btn-user .menu-btn-user-burger{
     width: 39px;
@@ -1002,11 +1010,11 @@ li{
     transition: 1s;
     border-right: 2px solid #FF6D00;
     top: 70px;
-    transform: translateX(-400px);
-    -webkit-transform: translateX(-400px);
-    -moz-transform: translateX(-400px);
-    -ms-transform: translateX(-400px);
-    -o-transform: translateX(-400px);
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+    -moz-transform: translateX(-200%);
+    -ms-transform: translateX(-200%);
+    -o-transform: translateX(-200%);
 }
 
 .menu-user.showUser{

@@ -91,6 +91,9 @@
 
             <div class="menu-user" :class="{ showUser:menuOpenBoxUser }">
                 <ul>
+                    <div class="clise-nav2" @click="menuOpenUsershow">
+                      <i class="far fa-times fa-2x"></i>
+                    </div>
                     <li class="user-link"><a href="#"><i class="fas fa-angle-down"></i>ناحیه کاربری</a>
                         <div class="dropdown-user" >
                             <ul class="" >

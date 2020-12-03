@@ -1027,6 +1027,13 @@ li{
     display: none;
 }
 
+.clise-nav2{
+    position: relative;
+    right: 231px;
+    top: 10px;
+    color: #b50000;
+}
+
 .overlay{
     height: 100%;
     width: 100%;

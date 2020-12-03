@@ -75,6 +75,8 @@
                     </div>
                 </li>
             </nav>
+            <div :class="{ overlay:mobileMenu }" @click="menuOpenshow"></div>
+
             <div class="logr d-flex align-items-lg-center ml-4">
                 <btn-prime-flat class="fas fa-search search-btn ml-2"></btn-prime-flat>
                 <btn-prime-flat style="border-bottom: 2px solid #023e8a;">ثبت نام</btn-prime-flat>
@@ -94,6 +96,8 @@
                     </li>
                 </ul>
             </div>
+
+            <div :class="{ overlay:menuOpenBoxUser }" @click="menuOpenUsershow"></div>
 
         </div>
 

@@ -69,10 +69,10 @@
                 <btn-prime-flat style="border-bottom: 2px solid #023e8a;">ثبت نام</btn-prime-flat>
                 <btn-sccss-flat style="border-bottom: 2px solid #0ead69;" class="mr-3">ورود</btn-sccss-flat>
             </div>
-
+<!-- 
             <div class="menu-btn-user" :class="{ openUser:menuOpenUser }" @click="menuOpenUsershow">
                 <div class="menu-btn-user-burger"></div>
-            </div>
+            </div> -->
 
             <div class="menu-user" :class="{ showUser:menuOpenBoxUser }">
                 <ul>

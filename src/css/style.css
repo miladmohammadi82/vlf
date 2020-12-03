@@ -742,7 +742,7 @@ li{
 
 .menu-btn .menu-btn-burger{
     width: 39px;
-    height: 5px;
+    height: 3px;
     background: #4e4e4e;
     border-radius: 5px;
     transition: all 0.5s ease-in-out;
@@ -756,7 +756,7 @@ li{
     content: '';
     position: absolute;
     width: 39px;
-    height: 5px;
+    height: 3px;
     background: #4e4e4e;
     border-radius: 5px;
     transition: all 0.5s ease-in-out;

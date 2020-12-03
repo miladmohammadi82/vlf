@@ -82,7 +82,7 @@
 
             <!-- Menu Mobile -->
 
-            <div class="mobile-menu">
+            <div class="mobile-menu" :class="{ showMenu:mobileMenu }">
                 <div class="head-menu-mobile">
                     <div class="head-menu-mobile">
                         <div class="clise-nav" @click="menuOpenshow">

@@ -868,7 +868,25 @@ li{
         top: 0;
         height: 100%;
         z-index: 9999;
-    }
+        transform: translateX(607px);
+        -webkit-transform: translateX(607px);
+        -moz-transform: translateX(607px);
+        -ms-transform: translateX(607px);
+        -o-transform: translateX(607px);
+    }   
+
+    .mobile-menu.showMenu{
+        transition: all .5s;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -ms-transition: all .5s;
+        -o-transition: all .5s;
+}
 
     .mobile-menu .head-menu-mobile{
         width: 100%;

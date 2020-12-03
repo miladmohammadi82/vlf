@@ -1015,6 +1015,13 @@ li{
     -moz-transform: translateX(-200%);
     -ms-transform: translateX(-200%);
     -o-transform: translateX(-200%);
+    display: none;
+}
+
+@media(max-width: 965px){
+    .menu-user{
+        display: block;
+    }
 }
 
 .menu-user.showUser{

@@ -935,8 +935,8 @@ li{
     }
 
     .logo-for-menu-mobile{
-        margin: -106px 138px 49px;
         display: block;
+        margin: -106px 138px 49px;
     }
 
     .menu-main ul li .dropdown ul li{

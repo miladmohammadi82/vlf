@@ -89,6 +89,11 @@
                             <i class="far fa-times fa-2x"></i>
                         </div>
                     </div>
+                        
+                    <div class="logo-for-menu-mobile">
+                        <h2>LOGO</h2>
+                    </div>
+
                     <form action="" class="searchBox"> 
                         <div class="input-group input-group-lg">
                             <input type="text" placeholder="ترجمه ...">

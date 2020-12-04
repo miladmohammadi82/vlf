@@ -100,7 +100,8 @@
                 <nav class="menu-main">
                     <ul>
                         <li><a href="#">صفحه اصلی</a></li>
-                        <li class="nav-link">فرانت اند
+                        <li class="nav-link" @hover="openIconMibile"><a href="#">فرانت اند</a>
+                        <i class="far fa-plus" :class="{ openMobile:showOpenIconMobile }"></i>
                         <div class="dropdown">
                             <ul>
                                 <li class="dropdown-link"><a href="#">آیتم 1</a></li>
@@ -109,7 +110,8 @@
                             </ul>
                         </div>
                         </li>
-                        <li class="nav-link">بک اند
+                        <li class="nav-link"><a href="#">بک اند</a>
+                        <i class="far fa-plus"></i>
                             <div class="dropdown">
                                     <ul>
                                         <li class="dropdown-link"><a href="#">آیتم 1</a></li>
@@ -118,7 +120,8 @@
                                     </ul>
                                 </div>
                             </li>
-                        <li class="nav-link">زبان ها
+                        <li class="nav-link"><a href="#">زبان ها</a>
+                        <i class="far fa-plus"></i>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link"><a href="#">آیتم 1</a></li>
@@ -127,7 +130,8 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-link">رابط کاربری
+                        <li class="nav-link"><a href="#">رابط کاربری</a>
+                        <i class="far fa-plus"></i>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link"><a href="#">آیتم 1</a></li>
@@ -136,7 +140,8 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-link">گرافیک
+                        <li class="nav-link"><a href="#">گرافیک</a>
+                        <i class="far fa-plus"></i>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link"><a href="#">آیتم 1</a></li>
@@ -145,7 +150,8 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-link">CMS ها
+                        <li class="nav-link"><a href="#">CMS ها</a>
+                        <i class="far fa-plus"></i>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link"><a href="#">آیتم 1</a></li>

@@ -100,7 +100,7 @@
                 <nav class="menu-main">
                     <ul>
                         <li><a href="#">صفحه اصلی</a></li>
-                        <li class="nav-link">فرانت اند <i class="fas fa-angle-down"></i>
+                        <li class="nav-link">فرانت اند
                         <div class="dropdown">
                             <ul>
                                 <li class="dropdown-link"><a href="#">آیتم 1</a></li>
@@ -109,7 +109,7 @@
                             </ul>
                         </div>
                         </li>
-                        <li class="nav-link">بک اند <i class="fas fa-angle-down"></i>
+                        <li class="nav-link">بک اند
                             <div class="dropdown">
                                     <ul>
                                         <li class="dropdown-link"><a href="#">آیتم 1</a></li>
@@ -118,7 +118,7 @@
                                     </ul>
                                 </div>
                             </li>
-                        <li class="nav-link">زبان ها <i class="fas fa-angle-down"></i>
+                        <li class="nav-link">زبان ها
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link"><a href="#">آیتم 1</a></li>
@@ -127,7 +127,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-link">رابط کاربری <i class="fas fa-angle-down"></i>
+                        <li class="nav-link">رابط کاربری
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link"><a href="#">آیتم 1</a></li>
@@ -136,7 +136,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-link">گرافیک <i class="fas fa-angle-down"></i>
+                        <li class="nav-link">گرافیک
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link"><a href="#">آیتم 1</a></li>
@@ -145,7 +145,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-link">CMS ها <i class="fas fa-angle-down"></i>
+                        <li class="nav-link">CMS ها
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link"><a href="#">آیتم 1</a></li>
